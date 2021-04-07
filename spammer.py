@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# CMC v9.0
+# ДИМА v9.0
 # Author: DIMA
 import os
 def MAIN():
@@ -685,7 +685,7 @@ def MAIN():
 					info=Back.RED+"\nВерсия устарела и нуждается в обновлении!"+Style.RESET_ALL
 
 			def logo():
-				logo = r+"░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n░"+g+"██████"+r+"╗"+g+"██████"+r+"╗░"+g+"██"+r+"╗░░░"+g+"██"+r+"╗"+g+"███"+r+"╗░░░"+g+"███"+r+"╗"+g+"███████"+r+"╗"+g+"██████"+r+"╗░\n"+g+"██"+r+"╔════╝"+g+"██"+r+"╔══"+g+"██"+r+"╗╚"+g+"██"+r+"╗░"+g+"██"+r+"╔╝"+g+"████"+r+"╗░"+g+"████"+r+"║"+g+"██"+r+"╔════╝"+g+"██"+r+"╔══"+g+"██"+r+"╗\n"+r+"╚"+g+"█████"+r+"╗░"+g+"██████"+r+"╔╝░"+r+"╚"+g+"████"+r+"╔╝"+r+"░"+g+"██"+r+"╔"+g+"████"+r+"╔"+g+"██"+r+"║"+g+"█████"+r+"╗░░"+g+"██████"+r+"╔╝\n░"+r+"╚═══"+g+"██"+r+"╗"+g+"██"+r+"╔═══╝░░░"+r+"╚"+g+"██"+r+"╔╝░░"+g+"██"+r+"║╚"+g+"██"+r+"╔╝"+g+"██"+r+"║"+g+"██"+r+"╔══╝░░"+g+"██"+r+"╔══"+g+"██"+r+"╗\n"+g+"██████"+r+"╔╝"+g+"██"+r+"║░░░░░░░░"+g+"██"+r+"║░░░"+g+"██"+r+"║░"+r+"╚═╝░"+g+"██"+r+"║"+g+"███████"+r+"╗"+g+"██"+r+"║░░"+g+"██"+r+"║\n"+r+"╚═════╝░"+r+"╚═╝░░░░░░░░"+r+"╚═╝░░░"+r+"╚═╝░░░░░"+r+"╚═╝╚══════╝╚═╝░░"+r+"╚═╝\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ "+s+"DIMA"+r+" ░░░\n"+y+" [ CMC Spammer ~ v.9.0 ~ MPL-2.0 ]\n [ СОЗДАТЕЛЬ ДМИТРИЙ! ]"+s
+				logo = r+"░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n░"+g+"██████"+r+"╗"+g+"██████"+r+"╗░"+g+"██"+r+"╗░░░"+g+"██"+r+"╗"+g+"███"+r+"╗░░░"+g+"███"+r+"╗"+g+"███████"+r+"╗"+g+"██████"+r+"╗░\n"+g+"██"+r+"╔════╝"+g+"██"+r+"╔══"+g+"██"+r+"╗╚"+g+"██"+r+"╗░"+g+"██"+r+"╔╝"+g+"████"+r+"╗░"+g+"████"+r+"║"+g+"██"+r+"╔════╝"+g+"██"+r+"╔══"+g+"██"+r+"╗\n"+r+"╚"+g+"█████"+r+"╗░"+g+"██████"+r+"╔╝░"+r+"╚"+g+"████"+r+"╔╝"+r+"░"+g+"██"+r+"╔"+g+"████"+r+"╔"+g+"██"+r+"║"+g+"█████"+r+"╗░░"+g+"██████"+r+"╔╝\n░"+r+"╚═══"+g+"██"+r+"╗"+g+"██"+r+"╔═══╝░░░"+r+"╚"+g+"██"+r+"╔╝░░"+g+"██"+r+"║╚"+g+"██"+r+"╔╝"+g+"██"+r+"║"+g+"██"+r+"╔══╝░░"+g+"██"+r+"╔══"+g+"██"+r+"╗\n"+g+"██████"+r+"╔╝"+g+"██"+r+"║░░░░░░░░"+g+"██"+r+"║░░░"+g+"██"+r+"║░"+r+"╚═╝░"+g+"██"+r+"║"+g+"███████"+r+"╗"+g+"██"+r+"║░░"+g+"██"+r+"║\n"+r+"╚═════╝░"+r+"╚═╝░░░░░░░░"+r+"╚═╝░░░"+r+"╚═╝░░░░░"+r+"╚═╝╚══════╝╚═╝░░"+r+"╚═╝\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ "+s+"DIMA"+r+" ░░░\n"+y+" [ CMC СПАМ ~ v.9.0 ~ MPL-2.0 ]\n [ СОЗДАТЕЛЬ ДМИТРИЙ! ]"+s
 				print(logo)
 
 			def updateproxy():
@@ -695,7 +695,7 @@ def MAIN():
 					print ("Введите proxy в формате ip:port.")
 					print ("Пример: "+Fore.GREEN+"123.45.6.78:8080"+Style.RESET_ALL)
 					print ("Для отмены нажмите Ctrl+C")
-					proxy = input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+					proxy = input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 					if proxy == "":
 						info = Fore.RED+"\nНекорректно введены данные!"+Style.RESET_ALL
 						proxy = "localhost"
@@ -768,7 +768,7 @@ def MAIN():
 			def update():
 				a=input("Вы уверены, что хотите обновить? (y/n) ")
 				if a=="y":
-					os.system("cd && rm -rf CMC && git clone https://github.com/FSystem88/spymer && cd CMC && sh install.sh")
+					os.system("cd && rm -rf ДИМА && git clone https://github.com/FSystem88/spymer && cd ДИМА && sh install.sh")
 					exit()
 				else:
 					print("Отменено")
@@ -785,11 +785,11 @@ def MAIN():
 				logo()
 				print(info)
 				print('Введите телефон ("Enter" - отмена):')
-				phone = input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+				phone = input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 				try:
 					if int(phone):
 						print('Введите количество кругов ("Enter" - отмена):')
-						count = input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+						count = input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 						try:
 							if int(count):
 								count=int(count)
@@ -829,7 +829,7 @@ def MAIN():
 				print("Введите путь к файлу: ")
 				print("(Папка с файлом должна находиться в домашней дирректории!)")
 				print("Не знаешь, как создать файл в терминале - воспользуйся токеном!")
-				f_name=input(Fore.BLUE+"CMC > "+Style.RESET_ALL+"~/")
+				f_name=input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL+"~/")
 				clear()
 				logo()
 				print(info)
@@ -841,7 +841,7 @@ def MAIN():
 						array.pop()
 					print("Файл найден.\nНомера:\n{}".format(array))
 					print('Введите количество кругов ("Enter" - отмена):')
-					count = input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+					count = input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 					try:
 						if int(count):
 							count=int(count)
@@ -889,7 +889,7 @@ def MAIN():
 				print("Введите токен: ")
 				print("Загрузить файл и получить токен можно по ссылке:")
 				print(Fore.GREEN+"https://FSystem88.ru/spymer/\n"+Style.RESET_ALL)
-				token=input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+				token=input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 				id=requests.post('https://fsystem88.ru/spymer/spym.php', data={'token': token}).json()["id"]
 				if int(id) != 0:
 					req=requests.get("https://fsystem88.ru/spymer/token/{}".format(token))
@@ -905,7 +905,7 @@ def MAIN():
 							array.pop()
 						print("Файл загружен успешно.\nТелефоны:\n{}".format(req.text))
 						print('Введите количество кругов ("Enter" - отмена):')
-						count = input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+						count = input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 						try:
 							if int(count):
 								count=int(count)
@@ -966,10 +966,10 @@ def MAIN():
 					checkver()
 					print("Proxy: "+Fore.BLUE+"{}".format(proxy)+Style.RESET_ALL)
 					if proxy == "localhost":
-						print(Fore.YELLOW+"Советую использовать прокси !!!"+Style.RESET_ALL)
+						print(Fore.YELLOW+"Для полной безопасности используйте пркси !!!"+Style.RESET_ALL)
 					print("1) СМС спамер.")
 					print("2) Обновить прокси.")
-					print("3) Обновить АТАКУ.")
+					print("3) Обновить СПАМЕР.")
 					print("4) Выход.")
 					input1 = input(Fore.BLUE+"Введите номер пункта: "+Style.RESET_ALL)
 					if input1 == "1":
@@ -980,7 +980,7 @@ def MAIN():
 						print("1. Запустить спамер на один номер")
 						print("2. Выгрузить номера из TXT файла ")
 						print("3. Выгрузить номера по токену")
-						input11= input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+						input11= input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 						if input11 == "1":
 							onesend()
 
@@ -996,7 +996,7 @@ def MAIN():
 						print("1. Удалить прокси")
 						print("2. Ввести свой прокси")
 						print("3. Сгенерировать прокси")
-						input51 = input(Fore.BLUE+"CMC > "+Style.RESET_ALL)
+						input51 = input(Fore.BLUE+"ДИМА > "+Style.RESET_ALL)
 						if input51=="1":
 							proxy = "ЛОКАЛЬНО"
 						
