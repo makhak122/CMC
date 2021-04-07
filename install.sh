@@ -1,11 +1,11 @@
 #!/bin/bash
 clear
 echo "--------------------"
-echo "|     Кто ты dima ?     |"
-echo "|------------------22222|"
-echo "| 1. Termux 22222       |"
-echo "| 2. Другой Unix  22222 |"
-echo "| 3. iSH          22222 |"
+echo "| кто ты? Я Дима!  |"
+echo "|------------------|"
+echo "| 1. Termux        |"
+echo "| 2. Линукс        |"
+echo "| 3. ерунда        |"
 echo "|                  |"
 echo "| Введите 1/2/3:   |"
 echo "--------------------"
@@ -15,11 +15,11 @@ then
 	pkg install python
 	pkg install dos2unix
 	pip install requests colorama proxyscrape
-	cp ~/spymer/spammer.py $PREFIX/bin/spymer
-	dos2unix $PREFIX/bin/spymer
-	chmod -R 777 ~/spymer
-	chmod 777 $PREFIX/bin/spymer
-	spymer
+	cp ~/CMC/spammer.py $PREFIX/bin/CMC
+	dos2unix $PREFIX/bin/CMC
+	chmod -R 777 ~/CMC
+	chmod 777 $PREFIX/bin/CMC
+	CMC
 else
 	if [ $numb = "2" ]
 	then
@@ -30,11 +30,11 @@ else
 		else
 			apt install python3 python3-pip dos2unix
 			pip3 install requests colorama proxyscrape
-			cp ~/spymer/spammer.py $PREFIX/bin/spymer
-			dos2unix $RPEFIX/bin/spymer
-			chmod 777 $RPEFIX/bin/spymer
-			chmod -R 777 ~/spymer
-			spymer
+			cp ~/CMC/spammer.py $PREFIX/bin/CMC
+			dos2unix $RPEFIX/bin/CMC
+			chmod 777 $RPEFIX/bin/CMC
+			chmod -R 777 ~/CMC
+			CMC
 		fi
 	else
 		if [ $numb = "3" ] 
@@ -45,10 +45,10 @@ else
 			pip3 install requests
 			pip3 install colorama
 			pip3 install proxyscrape
-			cp ~/spymer/spammer.py /usr/bin/spymer
-			dos2unix /usr/bin/spymer
-			chmod 777 /usr/bin/spymer
-			spymer
+			cp ~/CMC/spammer.py /usr/bin/CMC
+			dos2unix /usr/bin/CMC
+			chmod 777 /usr/bin/CMC
+			CMC
 		else
 			echo "Некорректный ввод"
 		fi
