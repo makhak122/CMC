@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# CMC v9.0
+# CMC v10.0
 # Author: DIMA
 import os
 def MAIN():
@@ -685,7 +685,7 @@ def MAIN():
 					info=Back.RED+"\nВерсия устарела и нуждается в обновлении!"+Style.RESET_ALL
 
 			def logo():
-				logo = " [ CMC СПАМ ~ v.9.0 ~ MPL-2.0 ]\n [ СОЗДАТЕЛЬ ДМИТРИЙ! ]"+s
+				logo = " [ CMC СПАМ верясия 10.0 ]\n [ СОЗДАТЕЛЬ СМС БОМБЕРА ДМИТРИЙ! ]\n [ Подпишись на тг канал @LegionXlink ] "
 				print(logo)
 
 			def updateproxy():
