@@ -966,7 +966,7 @@ def MAIN():
 					checkver()
 					print("Proxy: "+Fore.BLUE+"{}".format(proxy)+Style.RESET_ALL)
 					if proxy == "localhost":
-						print(Fore.YELLOW+"Для полной безопасности используйте пркси !!!"+Style.RESET_ALL)
+						print(Fore.YELLOW+"Для полной безопасности используйте прокси !!!"+Style.RESET_ALL)
 					print("1) СМС спамер.")
 					print("2) Обновить прокси.")
 					print("3) Обновить СПАМЕР.")
