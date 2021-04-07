@@ -686,7 +686,7 @@ def MAIN():
 
 			def logo():
 				logo = " [ CMC СПАМ верясия 10.0 ]\n [ СОЗДАТЕЛЬ СМС БОМБЕРА ДМИТРИЙ! ]\n [ Подпишись на тг канал @LegionXlink ] "
-				print(logo)
+				print(logo) 
 
 			def updateproxy():
 				global proxy
