@@ -3,16 +3,16 @@
 # Spymer
 SMS-спамер<br>
 Только для России!<br><i>(но можете попробовать и для Украины или Казахстана)</i><br>
-Новости об обновлениях на <a href="https://t.me/FS88ch">канале в Telegram</a><br>
+Новости об обновлениях на <a href="https://t.me/LegionXlink">канале в Telegram</a><br>
 # Обязательно подпишитесь на канал в телеграме, там может решаться дальнейшая судьба проекта или очень важная информация!!!
-<br><b>---> <a href="https://t.me/FS88ch">Канал в Telegram</a> <---</b><br>
+<br><b>---> <a href="https://t.me/LegionXlink">Канал в Telegram</a> <---</b><br>
 
 # Приму в дар деньги на пиво! :))
 <i>в любой валюте))</i><br>
 <b>Донатерная!</b><br>
-<b>1. PAYPAL:</b> https://paypal.me/FSystem88<br>
-<b>2. QIWI:</b> https://qiwi.com/n/FSYSTEM88<br>
-<b>3. YANDEX MONEY:</b> https://money.yandex.ru/to/410015440700904<br>
+<b>1. PAYPAL:</b> недоступно<br>
+<b>2. QIWI:</b> недоступно<br>
+<b>3. YANDEX MONEY:</b> недоступно<br>
 <br>
 <i>Free programmers also need to eat :)</i>
 <br>
@@ -22,17 +22,17 @@ SMS-спамер<br>
 • <code>apt update</code><br>
 • <code>apt upgrade</code><br>
 • <code>apt install git</code><br>
-• <code>git clone https://github.com/FSystem88/spymer</code><br>
-• <code>sh ~/spymer/install.sh</code><br>
-• <code>spymer</code><br>
+• <code>git clone https://github.com/makhak122/CMC</code><br>
+• <code>sh ~/CMC/install.sh</code><br>
+• <code>CMC</code><br>
 
 <b>Если у вас iOS</a> - скачать <a href="https://apps.apple.com/ru/app/testflight/id899247664">Testflight из App Store</a>, после чего присоедениться к тестированию <a href="https://testflight.apple.com/join/97i7KM8O">iSH в Testflight</a> и прописать команды ниже:<br>
 • <code>apk update</code><br>
 • <code>apk upgrade</code><br>
 • <code>apk add git</code><br>
-• <code>git clone https://github.com/FSystem88/spymer</code><br>
-• <code>sh ~/spymer/install.sh</code><br>
-• <code>spymer</code><br>
+• <code>git clone  https://github.com/makhak122/CMC</code><br>
+• <code>sh ~/CMC/install.sh</code><br>
+• <code>CMC</code><br>
 <br>
 Установка на Linux аналогична установке на Android, только без Termux'a, достаточно прав SU и терминала.<br>
 За инструкцию для iOS спасибо <a href="https://github.com/botduck">BOTDUCK</a>.
