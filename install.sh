@@ -1,14 +1,14 @@
 #!/bin/bash
 clear
-echo "		🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"
+echo "		🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"
 echo "		🔥 кто ты? Я Дима!  🔥"
-echo "		🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"
+echo "		🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"
 echo "		🔥     1. Termux    🔥"
 echo "		🔥     2. Линукс    🔥"
 echo "		🔥     3. ерунда    🔥"
 echo "		🔥                  🔥"
 echo "		🔥   Введите 1/2/3: 🔥"
-echo "		🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"
+echo "		🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥"
 read numb
 if [ $numb = "1" ]
 then
